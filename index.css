@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+i{
+    font-size:20px;
+}
+
+
+.body {
+    display: flex;
+    justify-content:space-around;
+    margin: 15px 0 0 0;
+    width: 100%;
+}
+
+
+.body > .block1 {
+    width: 15%;
+}
+
+.body > .block2 {
+    width: 60%;
+}
+
+.body > .block3 {
+    width: 25%;
+}
+
+
+.block1{
+    border-right: 1px solid rgb(180, 180, 180);
+    display: grid;
+    justify-content: center;
+}
+
+.block1 > .smallinsta {
+    display: none;
+}
+.block1 > a > img{
+    height: 55px;
+    width: 155px;
+    
+}
+.block1 > .home {
+    margin-top:35px;
+    display: flex;
+    align-items: center;
+}
+
+.block1 > .home > p{
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.block1 > .search{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.block1 > .search > p{
+    margin-left: 15px;
+}
+
+.block1 > .explore{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.block1 > .explore > p{
+    margin-left: 15px;
+}
+.block1 > .reels{
+        margin-top: 35px;
+        display: flex;
+        align-items: center;
+}
+
+.block1 > .reels > p{
+    margin-left: 15px;
+}
+
+.block1 > .messages{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.block1 > .messages > p{
+    margin-left: 15px;
+}
+
+.block1 > .heart{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.block1 > .heart > p{
+    margin-left: 15px;
+}
+
+.block1 > .create{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.block1 > .create > p{
+    margin-left: 15px;
+}
+.block1 > .profile{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.block1 > .profile > img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.block1 > .profile > p{
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.block1 > .more{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.block1 > .more > p{
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+/* Middle */
+
+.block2 > .following{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.following > .weeknd > img {
+    height: 60px;
+    width: 60px;
+    border-radius:50% ;
+    border: solid 2px rgb(255, 0, 43);
+    object-fit: contain;
+    padding: 3px;
+}
+
+.following > .weeknd > p {
+    font-size: 15px;
+}
+
+.following > .brownies > img {
+    height: 60px;
+    width: 60px;
+    border-radius:50% ;
+    border: solid 2px rgb(255, 0, 43);
+    object-fit: contain;
+    padding: 3px;
+}
+
+.following > .brownies > p {
+    font-size: 15px;
+}
+
+.following > .vegeta > img {
+    height: 60px;
+    width: 60px;
+    border-radius:50% ;
+    border: solid 2px rgb(255, 0, 43);
+    object-fit: contain;
+    padding: 3px;
+}
+
+.following > .vegeta > p {
+    font-size: 15px;
+}
+
+.following > .emo> img {
+    height: 60px;
+    width: 60px;
+    border-radius:50% ;
+    border: solid 2px rgb(255, 0, 43);
+    object-fit: contain;
+    padding: 3px;
+}
+
+.following > .emo > p {
+    font-size: 15px;
+}
+
+
+.following > .juan> img {
+    height: 60px;
+    width: 60px;
+    border-radius:50% ;
+    border: solid 2px rgb(255, 0, 43);
+    object-fit: contain;
+    padding: 3px;
+}
+
+.following > .juan > p {
+    font-size: 15px;
+}
+
+.following > .snoop> img {
+    height: 60px;
+    width: 60px;
+    border-radius:50% ;
+    border: solid 2px rgb(255, 0, 43);
+    object-fit: contain;
+    padding: 3px;
+}
+
+.following > .snoop > p {
+    font-size: 15px;
+}
+
+.posts {
+    margin: auto;
+    margin-top: 15px;
+    width: 70%;
+    height: 465px;
+}
+
+
+.posts > .post1 > .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.posts > .post1 > .top> .obama{
+    display: flex;
+    align-items: center;
+}
+
+.posts > .post1 > .top >.obama> img {
+    height: 25px;
+    width: 25px;
+    border-radius:50% ;
+    border: solid 2px rgb(255, 0, 43);
+    object-fit: contain;
+    padding: 3px;
+}
+
+.posts > .post1 > .top> .obama > p {
+    font-size: 15px;
+    padding: 15px;
+}
+
+.posts > .post1 > img {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.posts > .post1 > .react > .section{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.posts > .post1 > .react {
+    display: flex;
+    justify-content:space-between ;
+    margin-top: 12px;
+}
+
+.posts > .post1 > p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.posts > .post1 > a {
+    font-size: 14px;
+    text-decoration: none;
+    color: gray;
+}
+
+.posts > .post1 > .comment{
+    display:flex ;
+    justify-content:space-between ;
+}
+
+.posts > .post1 > .comment > .addcomment > textarea{
+    font-size: 14px;
+    border: none;
+    outline: none;
+    resize: none;
+    overflow: hidden;
+}
+
+.posts > .post2{
+    padding-top: 10px;
+}
+.posts > .post2 > .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.posts > .post2 > .top> .juan{
+    display: flex;
+    align-items: center;
+}
+
+.posts > .post2 > .top >.juan> img {
+    height: 25px;
+    width: 25px;
+    border-radius:50% ;
+    border: solid 2px rgb(255, 0, 43);
+    object-fit: contain;
+    padding: 3px;
+}
+
+.posts > .post2 > .top> .juan > p {
+    font-size: 15px;
+    padding: 15px;
+}
+
+.posts > .post2 > img {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.posts > .post2 > .react > .section{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.posts > .post2 > .react {
+    display: flex;
+    justify-content:space-between ;
+    margin-top: 12px;
+}
+
+.posts > .post2 > p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.posts > .post2 > a {
+    font-size: 14px;
+    text-decoration: none;
+    color: gray;
+}
+
+.posts > .post2 > .comment{
+    display:flex ;
+    justify-content:space-between ;
+}
+
+.posts > .post2 > .comment > .addcomment > textarea{
+    font-size: 14px;
+    border: none;
+    outline: none;
+    resize: none;
+    overflow: hidden;
+}
+
+
+/* Block 3 */
+.block3{
+    margin-top: 25px;
+}
+.block3 > .my-profile{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.block3 > .my-profile > .profile-img > img{
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    border: gray solid 1px;
+}
+.block3 > .my-profile > .account-name> p {
+    font-size: 14px;
+}
+
+.block3 > .my-profile > .account-name > p:nth-child(2) {
+    color: gray;
+}
+
+.block3 > .my-profile > .switch > p{
+    color: blue;
+    font-size: 14px;
+}
+
+.block3 > .suggestion{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.block3 > .suggestion > .suggested > p{
+    font-size: 16px;
+    color: gray;
+}
+
+.block3 > .suggestion > .see-all > p{
+    font-size: 16px;
+}
+@media screen and (max-width: 1264px) {
+    .body > .block1 > a{
+        display: none
+    }
+
+    .body > .block1 > .smallinsta {
+        display: block;
+        height: 55px;
+        width: 55px;
+
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .body > .block1 > .home> p{
+        display: none;
+    }
+
+    .body > .block1 > .heart> p{
+        display: none;
+    }
+    .body > .block1 > .reels> p{
+        display: none;
+    }
+    .body > .block1 > .heart> p{
+        display: none;
+    }
+    .body > .block1 > .search{
+        display: none;
+    }
+    .body > .block1 > .messages> p{
+        display: none;
+    }
+    .body > .block1 > .create> p{
+        display: none;
+    }
+    .body > .block1 > .more> p{
+        display: none;
+    }
+    .body > .block1 > .explore> p{
+        display: none;
+    }
+    .body > .block1 > .profile> p{
+        display: none;
+    }
+
+    .block3{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .block2 > .following > .vegeta {
+        display: none;
+    }
+
+    .block2 > .following > .juan{
+        display: none;
+    }
+}
+
+@media  screen and (max-width: 420px) {
+    .posts > .post1 > .top > .icon> i{
+        display: none;
+    }
+    .posts > .post2 > .top > .icon> i{
+        display: none;
+    }
+    
+
+    .block2 > .posts > .post1 > .comment> .sticker > i {
+        display: none;
+    }
+
+    .block2 > .posts > .post2 > .comment> .sticker > i {
+        display: none;
+    }
+}
